@@ -31,7 +31,7 @@ int main() {
     0 0 0 0 0
 
     */
-    char screenPixel = '0';
+    char screenPixel = 'O';
 
     // Object value (the pixels of the object)
     /*
@@ -43,7 +43,7 @@ int main() {
     0 0 0 0 0
     
     */
-    char objectPixel = 'O';
+    char objectPixel = 'X';
 
     // Object default move direction (could be the speed too) ex: -5 would be 5 pixels per frame
     int directionX = 1;
