@@ -31,7 +31,7 @@ int main() {
     0 0 0 0 0
 
     */
-    int screenPixel = 0;
+    char screenPixel = '0';
 
     // Object value (the pixels of the object)
     /*
@@ -43,7 +43,7 @@ int main() {
     0 0 0 0 0
     
     */
-    int objectPixel = 1;
+    char objectPixel = 'O';
 
     // Object default move direction (could be the speed too) ex: -5 would be 5 pixels per frame
     int directionX = 1;
@@ -136,9 +136,9 @@ int main() {
         for (int i = 0; i < screenHeight; i++) {
             for (int j = 0; j < screenWidth; j++) {
                 if (screenMatrix[i][j] == 0) {
-                    printf("%d ", screenMatrix[i][j]);
+                    printf("%c ", screenMatrix[i][j]);
                 } else {
-                    printf("%d ", screenMatrix[i][j]);
+                    printf("%c ", screenMatrix[i][j]);
                 }
             }
             printf("\n");
