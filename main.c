@@ -154,10 +154,6 @@ int main() {
             printf("\n");
         }
 
-        // Move the object
-        objectPositionX += directionX;
-        objectPositionY += directionY;
-
         // Check if the object is colliding with the screen edges
         if (objectPositionX <= 0 || objectPositionX + objectWidth >= screenWidth) {
             directionX *= -1;
@@ -166,6 +162,10 @@ int main() {
         if (objectPositionY <= 0 || objectPositionY + objectHeight >= screenHeight) {
             directionY *= -1;
         }
+
+        // Move the object
+        objectPositionX += directionX;
+        objectPositionY += directionY;
 
         // Wait for the next frame
         usleep(1000000/frameRate);
