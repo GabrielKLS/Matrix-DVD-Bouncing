@@ -7,7 +7,7 @@
 */
 
 int main() {
-    // Variables
+    // Main Variables
 
     // Screen size
     int screenHeigth = 0;
@@ -21,7 +21,7 @@ int main() {
     int objectPositionX = 0;
     int objectPositionY = 0;
 
-    // Screen value (the pixels on the screen)
+    // Screen Pixel (the pixels on the screen)
     /*
     Ex: = 0
 
@@ -31,7 +31,7 @@ int main() {
     0 0 0 0 0
 
     */
-    int screenValue = 0;
+    int screenPixel = 0;
 
     // Object value (the pixels of the object)
     /*
@@ -43,7 +43,7 @@ int main() {
     0 0 0 0 0
     
     */
-    int objectValue = 1;
+    int objectPixel = 1;
 
     // Object default move direction (could be the speed too) ex: -5 would be 5 pixels per frame
     int directionX = 1;
