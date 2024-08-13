@@ -10,16 +10,16 @@ int main() {
     // Main Variables
 
     // Screen size
-    int screenHeigth = 0;
-    int screenWidth = 0;
+    int screenHeight = 20;
+    int screenWidth = 40;
 
     // Object size
-    int objectHeigth = 0;
-    int objectWidth = 0;
+    int objectHeight = 5;
+    int objectWidth = 5;
 
     // Object position
-    int objectPositionX = 0;
-    int objectPositionY = 0;
+    int objectPositionX = 8;
+    int objectPositionY = 18;
 
     // Screen Pixel (the pixels on the screen)
     /*
@@ -52,5 +52,8 @@ int main() {
     // Frame rate (frames per second) that will be used on the usleep function in a while loop
     int frameRate = 0;
 
+    // Inputs
+    //printf("Enter the screen size (height width) Ex 10 10: ");
+    //scanf("%d %d", &screenHeight, &screenWidth);
     return 0;
 }
