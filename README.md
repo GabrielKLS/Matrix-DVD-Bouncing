@@ -11,6 +11,7 @@ A C program that shows one matrix "Screen" within another matrix "Object" bounci
 
 ## Usage
 You can easily choose between default values and custom values.
+
 ![Settings](img/settings.gif) 
 
 ## Download
