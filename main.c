@@ -33,7 +33,7 @@ int main() {
     */
     char screenPixel = 'O';
 
-    // Object value (the pixels of the object)
+    // Object Pixel (the pixels of the object)
     /*
     Ex: = 1
 
@@ -45,7 +45,7 @@ int main() {
     */
     char objectPixel = 'X';
 
-    // Object default move direction (could be the speed too) ex: -5 would be 5 pixels per frame
+    // Object default move direction (could be the speed too) ex: 5 would be 5 pixels per frame
     int directionX = 1;
     int directionY = 1;
 
