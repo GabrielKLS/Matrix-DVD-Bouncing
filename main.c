@@ -72,6 +72,7 @@ int main() {
         // Custom values
         printf("Using custom values\n");
         printf("");
+
         // Inputs
 
         // Screen size
@@ -123,6 +124,7 @@ int main() {
         // Clear the screen
         system("cls");
         
+        // Show the values
         printf("Screen Size: %d %d\n", screenHeight, screenWidth);
         printf("Object Size: %d %d\n", objectHeight, objectWidth);
         printf("Object Position: %d %d\n", objectPositionX, objectPositionY);
@@ -130,7 +132,7 @@ int main() {
         printf("Frame Rate: %d\n", frameRate);
         printf("\n");
 
-        // Create the object matrix
+        // Create the screen matrix and put the object inside it
         for (int i = 0; i < screenHeight; i++) {
             for (int j = 0; j < screenWidth; j++) {
                 // Check if the object is inside the screen
@@ -142,7 +144,7 @@ int main() {
             }
         }
 
-        // Print the screen matrix
+        // Print the final screen matrix
         for (int i = 0; i < screenHeight; i++) {
             for (int j = 0; j < screenWidth; j++) {
                 if (screenMatrix[i][j] == 0) {
@@ -154,16 +156,15 @@ int main() {
             printf("\n");
         }
 
-        // Check if the object is colliding with the screen edges
+        // Check if the object is colliding with the screen edges and invert the direction
         if (objectPositionX <= 0 || objectPositionX + objectWidth >= screenWidth) {
             directionX *= -1;
         }
-
         if (objectPositionY <= 0 || objectPositionY + objectHeight >= screenHeight) {
             directionY *= -1;
         }
 
-        // Move the object
+        // Move the object position
         objectPositionX += directionX;
         objectPositionY += directionY;
 
