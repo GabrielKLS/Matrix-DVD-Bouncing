@@ -1,4 +1,4 @@
-# Matrix-Collision
- A C program that renders two colliding matrix on console
+# Matrix-Bouncing-DVD
+ A C program that shows one matrix within another colliding with the sides, similar to the old DVD players.
 
-![Matrix Collision](img\working.gif)
+![Executing](img/working.gif) 
