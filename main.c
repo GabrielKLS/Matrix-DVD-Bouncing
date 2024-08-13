@@ -103,6 +103,16 @@ int main() {
             printf("The object is out of the screen, please enter a valid position: ");
             scanf("%d %d", &objectPositionX, &objectPositionY);
         }
+
+        // Frame rate
+        printf("Enter the frame rate ((int)frames per second) Ex '2', recommended number between 1 and 6: ");
+        scanf("%d", &frameRate);
+
+        // Check if the frame rate is valid
+        while (frameRate < 1) {
+            printf("The frame rate is invalid, please enter a valid frame rate: ");
+            scanf("%d", &frameRate);
+        }
     }
 
     // Create the custom matrix
