@@ -13,6 +13,3 @@ A C program that shows one matrix "Screen" within another matrix "Object" bounci
 You can easily choose between default values and custom values.
 
 ![Settings](img/settings.gif) 
-
-## Download
-Latest release download: [Download](https://github.com/GabrielKLS/Matrix-DVD-Bouncing/releases/latest)
