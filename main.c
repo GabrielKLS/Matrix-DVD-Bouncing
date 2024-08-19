@@ -35,11 +35,11 @@ int main() {
 
     // Object Pixel (the pixels of the object)
     /*
-    Ex: = 1
+    Ex: = X
 
     0 0 0 0 0
-    0 0 1 1 0
-    0 0 1 1 0
+    0 0 X X 0
+    0 0 X X 0
     0 0 0 0 0
     
     */
@@ -75,7 +75,7 @@ int main() {
 
         // Inputs
 
-        // Screen size
+        // Screen size Input
         printf("Enter the screen size (height width) Ex '10 10' : ");
         scanf("%d %d", &screenHeight, &screenWidth);
 
@@ -85,7 +85,7 @@ int main() {
             scanf("%d %d", &screenHeight, &screenWidth);
         }
 
-        // Object size
+        // Object size Input
         printf("Enter the object size (height width) Ex '5 5' : ");
         scanf("%d %d", &objectHeight, &objectWidth);
 
@@ -95,7 +95,7 @@ int main() {
             scanf("%d %d", &objectHeight, &objectWidth);
         }
 
-        // Object position
+        // Object position Input
         printf("Enter the object position (x y) Ex '5 5' : ");
         scanf("%d %d", &objectPositionX, &objectPositionY);
 
@@ -105,7 +105,7 @@ int main() {
             scanf("%d %d", &objectPositionX, &objectPositionY);
         }
 
-        // Frame rate
+        // Frame rate Input
         printf("Enter the frame rate ((int)frames per second) Ex '2', recommended number between 1 and 6: ");
         scanf("%d", &frameRate);
 
