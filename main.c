@@ -132,7 +132,7 @@ int main() {
         printf("Frame Rate: %d\n", frameRate);
         printf("\n");
 
-        // Create the screen matrix and put the object inside it
+        // Fill the screen matrix and put the object inside it
         for (int i = 0; i < screenHeight; i++) {
             for (int j = 0; j < screenWidth; j++) {
                 // Check if the object is inside the screen
